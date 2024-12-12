@@ -194,6 +194,12 @@
 				Returns the current selection last character index if a selection is active, [code]-1[/code] otherwise. Does not include BBCodes.
 			</description>
 		</method>
+		<method name="get_selection_line_offset" qualifiers="const">
+			<return type="float" />
+			<description>
+				Returns the current selection vertical line offset if a selection is action, [code]-1.0[/code] otherwise.
+			</description>
+		</method>
 		<method name="get_total_character_count" qualifiers="const">
 			<return type="int" />
 			<description>
